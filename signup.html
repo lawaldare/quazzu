@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="./js/js/all.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quazzu Cloud Hosting</title>
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="main-header-inner">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Quazzu</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="signup.html" class="active">Sign Up</a></li>
+            <li><a href="#login-modal" class="waves-effect waves-light btn purple modal-trigger">Login</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+          <ul class="sidenav" id="mobile-nav">
+            <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a href="index.html"><i class="fa fa-home grey-text text-darken-4"></i>Home</a></li>
+            <li><a href="solutions.html"><i class="fa fa-cog grey-text text-darken-4"></i>Solutions</a></li>
+            <li><a href="signup.html"><i class="fa fa-users grey-text text-darken-4"></i>Sign Up</a></li>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a href="#login-modal" class="waves-effect waves-light btn purple modal-trigger">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome to Quazzu</h5>
+          <h1>Create An Account</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Sign up -->
+
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Get a free account</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro tempore blanditiis quisquam dolores accusamus praesentium ipsa nihil commodi delectus ut.</p>
+          <h4>Download the free software</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro tempore blanditiis quisquam dolores accusamus praesentium ipsa nihil commodi delectus ut.</p>
+          <h4>Push to the platform</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro tempore blanditiis quisquam dolores accusamus praesentium ipsa nihil commodi delectus ut.</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+            <form action="">
+              <div class="input-fields">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name">
+              </div>
+              <div class="input-fields">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name">
+              </div>
+              <div class="input-fields">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+              <div class="input-fields">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+              </div>
+              <div class="input-fields">
+                <label for="company">Company</label>
+                <input type="text" name="comapany" id="company">
+              </div>
+              <div class="input-fields">
+                <label for="name">Role</label>
+                <select name="role" id="role">
+                  <option value="" disabled selected>Select Role</option>
+                  <option value="professional">Professional Developer</option>
+                  <option value="hobbyist">Hobbyist</option>
+                  <option value="student">Student</option>
+                  <option value="manager">Manager</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <input type="submit" value="Signup" class="btn btn-large purple btn-extended">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Footer -->
+  <footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ratione perferendis dolor optio dignissimos molestiae?</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="#solutions.html">Solutions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#signup.html">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright deep-purple darken-1">
+      <div class="container">
+        © 2014 Quazzu
+        <a class="grey-text text-lighten-4 right" href="#!">Terms & conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashbord</p>
+      <form>
+        <div class="input-field">
+          <input type="email" name="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" name="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey"><i class="fa fa-sync"></i> Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn purple"><i class="fa fa-lock"></i> Login</a>
+    </div>
+  </div>
+
+
+  <!--Import jQuery before materialize.js-->
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+
+    //Sidenav
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+
+    //Carousel
+    const carousel = document.querySelector('.carousel');
+    M.Carousel.init(carousel, { fullWidth: true });
+
+    //Modal class
+    const modal = document.querySelector('.modal');
+    M.Modal.init(modal, {});
+
+    //Tabs
+    const tabs = document.querySelector('.tabs');
+    M.Tabs.init(tabs, {});
+
+    //Select
+    const select = document.querySelector('select');
+    M.FormSelect.init(select, {});
+
+  </script>
+</body>
+
+</html>
